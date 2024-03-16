@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Output</title>
+</head>
+<body>
+
+Data extracted from <a href="https://it-cup.static.domains/">https://it-cup.static.domains/</a> <br/>
+Total received: 89 data
+
+<h3>By pages</h3>
+<h4 id="output"></h4>
+
+<br/>
+
+<h3>By reviews: </h3>
+<h4 id="reviews"></h4>
+
+<script>
+    let data = {
+        "index": 195/42,
+        "cards": 50/17,
+        "make-money/investments": 10/4,
+        "everyday/debit-cards/alfacard": 80/21
+    };
+
+    document.getElementById("reviews").innerHTML = `<a href="https://it-cup.static.domains/">index.html</a>: ${data["index"]}<br/>` + `<a href="https://it-cup.static.domains/cards/">cards.html</a>: ${data["cards"]}<br/>` + `<a href="https://it-cup.static.domains/make-money/investments">make-money/investments.html</a>: ${data["make-money/investments"]}<br/>` + `<a href="https://it-cup.static.domains/everyday/debit-cards/alfacard">everyday/debit-cards/alfacard.html</a>: ${data["everyday/debit-cards/alfacard"]}<br/>`;
+
+    data = {
+        "index": "89",
+        "cards": "36",
+        "make-money/investments": "11",
+        "everyday/debit-cards/alfacard": "40"
+    };
+
+    document.getElementById("output").innerHTML = `<a href="https://it-cup.static.domains/">index.html</a>: ${data["index"]}<br/>` + `<a href="https://it-cup.static.domains/cards/">cards.html</a>: ${data["cards"]}<br/>` + `<a href="https://it-cup.static.domains/make-money/investments">make-money/investments.html</a>: ${data["make-money/investments"]}<br/>` + `<a href="https://it-cup.static.domains/everyday/debit-cards/alfacard">everyday/debit-cards/alfacard.html</a>: ${data["everyday/debit-cards/alfacard"]}<br/>`;
+
+</script>
+
+<script>
+</script>
+</body>
+</html>
