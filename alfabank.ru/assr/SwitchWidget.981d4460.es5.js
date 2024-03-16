@@ -1,0 +1,2 @@
+"use strict";(self.__LOADABLE_LOADED_CHUNKS__=self.__LOADABLE_LOADED_CHUNKS__||[]).push([[10504],{49719:function(e,n,t){t.d(n,{r:function(){return i}});var r=t(67294),i=function(e){var n=e.children,t=e.className,i=e.keepMount,l=e.visible;return r.createElement(r.Fragment,null,r.Children.map(n,(function(e){if((0,r.isValidElement)(e))return(0,r.cloneElement)(e,Object.assign({keepMount:i,className:t},e.props,{visibleId:l}))})))}},13936:function(e,n,t){t.r(n),t.d(n,{Switch:function(){return r.r}});var r=t(49719)}}]);
+//# sourceMappingURL=SwitchWidget.981d4460.es5.js.map

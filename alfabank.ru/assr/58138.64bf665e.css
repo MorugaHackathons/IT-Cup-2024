@@ -1,0 +1,7 @@
+@define-mixin focus-outline{outline:2px solid var(--focus-color);outline-offset:2px}@define-mixin bg-class-list{@each $backgroundColorBg in accent, info, attention-muted, positive-muted, negative-muted,
+        primary, primary-inverted, secondary, secondary-inverted, tertiary, tertiary-inverted,
+        quaternary, quaternary-inverted{.a2BRI{background-color:var(--color-light-bg-$(backgroundColorBg))}}@each $backgroundColor in specialbg-component, specialbg-component-inverted,
+        specialbg-primary-grouped, specialbg-secondary-grouped, specialbg-tertiary-grouped,
+        specialbg-secondary-transparent, specialbg-secondary-transparent-inverted,
+        specialbg-tertiary-transparent, specialbg-tertiary-transparent-inverted{.b2BRI{background-color:var(--color-light-$(backgroundColor))}}}@define-mixin button-reset{-webkit-tap-highlight-color:transparent;-webkit-appearance:none;-moz-appearance:none;appearance:none;background-color:transparent;border:0;border-radius:0;box-shadow:none;box-sizing:border-box;cursor:pointer;margin:0;min-width:0;outline:0;text-decoration:none;-webkit-user-select:none;-moz-user-select:none;user-select:none;vertical-align:middle}.c2BRI,.d2BRI,.e2BRI{position:relative}.e2BRI.f2BRI{overflow-x:hidden}.e2BRI *{box-sizing:border-box}.g2BRI{display:flex;margin-left:-24px;touch-action:pan-y}.h2BRI{flex-basis:100%;flex-grow:0;flex-shrink:0;min-width:0;padding-left:24px}
+/*# sourceMappingURL=58138.64bf665e.css.map*/

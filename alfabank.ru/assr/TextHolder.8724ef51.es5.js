@@ -1,0 +1,2 @@
+"use strict";(self.__LOADABLE_LOADED_CHUNKS__=self.__LOADABLE_LOADED_CHUNKS__||[]).push([[63595],{78209:function(e,t,_){_.r(t),_.d(t,{TextHolder:function(){return r}});var n=_(67294),r=function(e){var t=e.text;return n.createElement(n.Fragment,null,t)}}}]);
+//# sourceMappingURL=TextHolder.8724ef51.es5.js.map

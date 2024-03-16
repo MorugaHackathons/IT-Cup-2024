@@ -1,0 +1,2 @@
+"use strict";(self.__LOADABLE_LOADED_CHUNKS__=self.__LOADABLE_LOADED_CHUNKS__||[]).push([[62869],{14565:function(n,e,r){r.r(e),r.d(e,{NamedContainer:function(){return t.$}});var t=r(48830)},48830:function(n,e,r){r.d(e,{$:function(){return i}});var t=r(67294),a=function(n){var e=n.children;return t.createElement(t.Fragment,null,e)};a.displayName="NamedContainer",a.defaultProps={is:"NamedContainer"};var i=a}}]);
+//# sourceMappingURL=NamedContainer.e32322c8.es5.js.map

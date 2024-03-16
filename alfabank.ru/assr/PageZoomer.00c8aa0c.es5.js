@@ -1,0 +1,2 @@
+"use strict";(self.__LOADABLE_LOADED_CHUNKS__=self.__LOADABLE_LOADED_CHUNKS__||[]).push([[28912],{33531:function(e,_,n){n.r(_),n.d(_,{PageZoomer:function(){return t}});var r=n(67294),t=function(e){var _=e.children;return r.createElement("div",{style:{minWidth:"1200px"}},_)}}}]);
+//# sourceMappingURL=PageZoomer.00c8aa0c.es5.js.map
